@@ -1,0 +1,6 @@
+CREATE DATABASE Todo;
+
+CREATE TABLE Todo(
+  Todo_id SERIAL PRIMARY KEY,
+  description VARCHAR(255)
+);
